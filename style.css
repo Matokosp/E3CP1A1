@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+body  {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+header {
+	text-align: center;
+	background-color: #73be48;
+	padding: 5vh 0;
+	color: #fff;
+}
+
+.col-tercio {
+	width: 33%;
+	float: left;
+	padding: 100px 50px;
+	box-sizing: border-box;
+}
+
+
+.col-tercio img {
+	width: 100%;
+	background-color: #73be48;
+}
+
+@media (max-width: 480px) {
+
+	header {
+	text-align: center;
+	background-color: #73be48;
+	padding: 5vh 10px;
+	color: #fff;
+}
+
+	.col-tercio {
+		clear: both;
+		width: 100%;
+		padding: 50px 15vw;
+	}
+}
